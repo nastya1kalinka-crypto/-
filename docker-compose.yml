@@ -1,0 +1,24 @@
+version: '3.8'
+
+networks:
+  analytics_net:
+    driver: bridge
+
+services:
+  #PostgreSQL база данных
+  postgres:
+    image: postgres:15-alpine
+    container_name: weather_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: weather_db
+      POSTGRES_USER: weather_user
+      POSTGRES_PASSWORD: weather_pass
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-db.d/DB.sql
+    networks:
+      - analytics_net
+  
+volumes:
+  postgres_data:
