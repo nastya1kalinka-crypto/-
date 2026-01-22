@@ -20,5 +20,27 @@ services:
     networks:
       - analytics_net
   
+#Генератор данных
+  data-generator:
+    image: python:3.11-slim
+    container_name: weather_generator
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    volumes:
+      - ./scripts:/app
+    working_dir: /app
+    command: >
+      sh -c "pip install -r requirements.txt &&
+             python data_generator.py"
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: weather_db
+      DB_USER: weather_user
+      DB_PASSWORD: weather_pass
+    networks:
+      - analytics_net
+
 volumes:
   postgres_data:
