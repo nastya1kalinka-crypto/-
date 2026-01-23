@@ -7,7 +7,7 @@
 3. [Структура проекта](#структура-проекта)
 4. [Компоненты системы](#компоненты-системы)
 5. [Визуализации в Redash](#Визуализации-в-Redash)
-   1 [Состав дашборда](состав-дашборда)
+   1.1. [Состав дашборда](состав-дашборда)
 7. [Автор](автор)
 ---
 
@@ -52,8 +52,18 @@ weather-data-system/
 ----
 
 ## Визуализации в Redash
-![Дашборд системы]()
+![Дашборд системы]
+(<img width="1892" height="921" alt="{B8F4062C-1F74-48EC-8897-7A5E2E22C351}" src="https://github.com/user-attachments/assets/c491d5d8-a279-48df-a041-65078fb4d09e" />)
+![Карта станций]
+(<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cdd51603-3f76-4ba0-a250-7e48e2da4853" />)
+![Частота направления ветра]
 (<img width="1887" height="400" alt="newplot" src="https://github.com/user-attachments/assets/81e80f0b-3434-4cf7-a1d6-4547550750b4" />)
+![Уровень загрязнения по типам источников]
+(<img width="986" height="380" alt="newplot (1)" src="https://github.com/user-attachments/assets/2e70a16b-5ecd-4eaa-b9f5-59edf9bc30c6" />)
+![Корреляция температуры и влажности]
+(<img width="986" height="380" alt="newplot (2)" src="https://github.com/user-attachments/assets/b3c4028f-3f82-4000-b1e5-f1ee33cee9c7" />)
+![Сводная статистика]
+(<img width="1814" height="618" alt="{0DB8A549-B1C6-4D57-805D-AA80824E5B3F}" src="https://github.com/user-attachments/assets/a63b6cf5-e266-452a-aac1-030b00ac1bb1" />)
 
 ### Состав дашборда
 1. Карта станций
