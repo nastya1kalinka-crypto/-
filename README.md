@@ -52,7 +52,7 @@ weather-data-system/
 ----
 
 ## Визуализации в Redash
-(http://localhost:5000/public/dashboards/75rIJjCm4F6XeU4anx4DExdPX49NvERmR2KLahGV?org_slug=default)
+![Дашборд системы](https://github.com/nastya1kalinka-crypto/-/issues/1#issue-3845717847)
 
 ### Состав дашборда
 1. Карта станций
