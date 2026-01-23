@@ -52,7 +52,8 @@ weather-data-system/
 ----
 
 ## Визуализации в Redash
-![Дашборд системы](https://github.com/nastya1kalinka-crypto/-/issues/1#issue-3845717847)
+![Дашборд системы]()
+(<img width="1887" height="400" alt="newplot" src="https://github.com/user-attachments/assets/81e80f0b-3434-4cf7-a1d6-4547550750b4" />)
 
 ### Состав дашборда
 1. Карта станций
